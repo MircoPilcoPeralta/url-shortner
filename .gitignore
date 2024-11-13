@@ -12,6 +12,7 @@
 /link-shortener/yarn-error.log
 
 # IDEs and editors
+.idea
 /link-shortener/.idea
 /link-shortener/.project
 /link-shortener/.classpath
