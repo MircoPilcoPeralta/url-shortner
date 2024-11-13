@@ -5,4 +5,7 @@
         bean-discovery-mode="all"
         version="3.0"
 >
+    <interceptors>
+        <class>org.example.shortenerApi.interceptor.EntityManagerInterceptor</class>
+    </interceptors>
 </beans>
