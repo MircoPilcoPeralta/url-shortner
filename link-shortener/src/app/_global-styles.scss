@@ -2,7 +2,7 @@
 
 // Primary
 $cyan: hsl(180, 66%, 49%);
-$darl_violet: hsl(257, 27%, 26%);
+$dark_violet: hsl(257, 27%, 26%);
 
 // Secondary
 $red: hsl(0, 87%, 67%);
@@ -17,6 +17,10 @@ $white: white;
 
 // Typography
 $body_font_size: 18px;
+
+// Sizes
+$border_radius_50: 50px;
+$border_radius_20: 20px;
 
 // font
 .roboto-medium {
@@ -36,7 +40,7 @@ $body_font_size: 18px;
 }
 
 .btn {
-  border-radius: 50px;
+  border-radius: $border_radius_50;
   text-align: center;
   margin: 0;
   display: flex;
