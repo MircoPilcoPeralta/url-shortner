@@ -27,5 +27,12 @@ public class ShortenerWs {
         return  Response.ok(shortLink).build();
     }
 
+    @POST
+    @Path("/resolve/{shortUrl}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response resolveShortUrl(@PathParam("shortUrl") String shortUrl ) {
+        UrlResponse longUrl = iShortenerService.getLongUrl(shortUrl);
+        return  Response.ok(longUrl).build();
+    }
 
 }
