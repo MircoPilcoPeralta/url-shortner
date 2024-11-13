@@ -31,8 +31,23 @@ $body_font_size: 18px;
   font-style: normal;
 }
 
-.btn-colorless {
+.text-gray {
   color: $gray;
+}
+
+.btn {
+  border-radius: 50px;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 .btn-primary {

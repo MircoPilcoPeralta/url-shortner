@@ -1,0 +1,31 @@
+@use "../../global-styles" as global-styles;
+
+.hero-section {
+  position: relative;
+  object-fit: cover;
+  overflow: hidden;
+
+  .presentation {
+    position: absolute;
+    left: 10%;
+    width: 40%;
+  }
+  .presentation-image {
+    position: relative;
+    left: 60%;
+    width: 50%;
+  }
+  h1 {
+    font-size: 100px;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 26px;
+  }
+}
+
+.get-started-btn {
+  height: 60px;
+  width: 180px;
+  font-size: 22px;
+}
