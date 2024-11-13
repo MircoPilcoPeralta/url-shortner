@@ -1,0 +1,79 @@
+######## Front end ########
+
+# Compiled output
+/link-shortener/dist
+/link-shortener/tmp
+/link-shortener/out-tsc
+/link-shortener/bazel-out
+
+# Node
+/link-shortener/node_modules
+/link-shortener/npm-debug.log
+/link-shortener/yarn-error.log
+
+# IDEs and editors
+/link-shortener/.idea
+/link-shortener/.project
+/link-shortener/.classpath
+/link-shortener/.c9/
+/link-shortener/*.launch
+/link-shortener/.settings/
+/link-shortener/*.sublime-workspace
+
+# Visual Studio Code
+/link-shortener/.vscode
+/link-shortener/!.vscode/settings.json
+/link-shortener/!.vscode/tasks.json
+/link-shortener/!.vscode/launch.json
+/link-shortener/!.vscode/extensions.json
+/link-shortener/.history/*
+
+# Miscellaneous
+/link-shortener/.angular/cache
+/link-shortener/.sass-cache/
+/link-shortener/connect.lock
+/link-shortener/coverage
+/link-shortener/libpeerconnection.log
+/link-shortener/testem.log
+/link-shortener/typings
+
+# System files
+/link-shortener/.DS_Store
+/link-shortener/Thumbs.db
+
+#### Web Service ######
+/shortener-jax-ws/target/
+/shortener-jax-ws/!.mvn/wrapper/maven-wrapper.jar
+/shortener-jax-ws/!**/src/main/**/target/
+/shortener-jax-ws/!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+/shortener-jax-ws/.idea
+/shortener-jax-ws/*.iws
+/shortener-jax-ws/*.iml
+/shortener-jax-ws/*.ipr
+
+### Eclipse ###
+/shortener-jax-ws/.apt_generated
+/shortener-jax-ws/.classpath
+/shortener-jax-ws/.factorypath
+/shortener-jax-ws/.project
+/shortener-jax-ws/.settings
+/shortener-jax-ws/.springBeans
+/shortener-jax-ws/.sts4-cache
+
+### NetBeans ###
+/shortener-jax-ws/nbproject/private/
+/shortener-jax-ws/nbbuild/
+/shortener-jax-ws/dist/
+/shortener-jax-ws/nbdist/
+/shortener-jax-ws/.nb-gradle/
+/shortener-jax-ws/build/
+/shortener-jax-ws/!**/src/main/**/build/
+/shortener-jax-ws/!**/src/test/**/build/
+
+### VS Code ###
+/shortener-jax-ws/.vscode/
+
+### Mac OS ###
+/shortener-jax-ws/.DS_Store
