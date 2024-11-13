@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+// Primary
+$cyan: hsl(180, 66%, 49%);
+$darl_violet: hsl(257, 27%, 26%);
+
+// Secondary
+$red: hsl(0, 87%, 67%);
+
+// Neutral
+$gray: hsl(0, 0%, 75%);
+$grayish_violet: hsl(257, 7%, 63%);
+$very_dark_blue: hsl(255, 11%, 22%);
+$very_dark_violet: hsl(260, 8%, 14%);
+$black: black;
+$white: white;
+
+// Typography
+$body_font_size: 18px;
+
+// font
+.roboto-medium {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.btn-colorless {
+  color: $gray;
+}
+
+.btn-primary {
+  background-color: $cyan;
+  color: $white;
+}
+
+.horizonal-space {
+  flex: 1 1 0%;
+}

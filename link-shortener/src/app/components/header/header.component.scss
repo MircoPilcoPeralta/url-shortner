@@ -1,0 +1,51 @@
+@use "../../global-styles" as global-styles;
+
+.navbar {
+  height: 120px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  gap: 25px;
+
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+    }
+    .app-text-logo {
+      font-size: 32px;
+      color: black;
+      font-weight: 700;
+    }
+    .navbar-link {
+      font-size: 16px;
+      color: global-styles.$gray;
+      font-weight: 600;
+    }
+    .navbar-link:hover {
+      color: global-styles.$black;
+      font-weight: 700;
+    }
+  }
+}
+
+.navbar-options {
+  display: flex;
+  .nav-bar-btn {
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
